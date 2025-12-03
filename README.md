@@ -11,21 +11,29 @@ Each character has a height of 8 lines.
 
 Uses the standard banner only.
 
+
 Example Output
 
-Input: "Hello"
+### Usage
 
- _              _   _          
-| |            | | | |         
-| |__     ___  | | | |   ___   
-|  _ \   / _ \ | | | |  / _ \  
-| | | | |  __/ | | | | | (_) | 
-|_| |_|  \___| |_| |_|  \___/  
+```console
+test$ go run . "" | cat -e
+test$ go run . "\n" | cat -e
+$
+test$ go run . "Hello" | cat -e
+ _    _          _   _          $
+| |  | |        | | | |         $
+| |__| |   ___  | | | |   ___   $
+|  __  |  / _ \ | | | |  / _ \  $
+| |  | | |  __/ | | | | | (_) | $
+|_|  |_|  \___| |_| |_|  \___/  $
+                                $
+                                $
 
-Usage
-go run . "Hello There" | cat -e
+```
 
-Learning Objectives
+
+Learning Objectives:
 
 Practice using the Go file system (fs) API
 
@@ -35,6 +43,6 @@ Apply good Go coding practices
 
 Implement unit testing
 
-Allowed Packages
+Allowed Packages:
 
-Only standard Go packages
+Only standard Go packages.
