@@ -1,7 +1,7 @@
 package main
 
 import (
-	asciiart "asciiart/test"
+	asciiart "asciiart/func"
 	"os"
 )
 
