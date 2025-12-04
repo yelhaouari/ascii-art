@@ -6,9 +6,7 @@ import (
 )
 
 func cheak(str string) bool {
-
 	return strings.Trim(str, "\\n") == ""
-
 }
 
 func PrintSymbole(arr [][]string, woord string) {
