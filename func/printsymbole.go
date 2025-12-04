@@ -12,6 +12,9 @@ func cheak(str string) bool {
 }
 
 func PrintSymbole(arr [][]string, woord string) {
+	if woord == "" {
+		return
+	}
 
 	str := woord
 	if cheak(woord) {
